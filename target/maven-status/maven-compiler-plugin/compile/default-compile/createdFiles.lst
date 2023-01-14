@@ -1,0 +1,10 @@
+ru\project\controller\IndexController.class
+ru\project\config\AppConfig.class
+ru\project\config\MvcConfig.class
+ru\project\controller\UsersController.class
+ru\project\config\ApplicationInit.class
+ru\project\repository\UserRepositoryImpl.class
+service\UserService.class
+ru\project\model\User.class
+service\UserServiceImpl.class
+ru\project\repository\UserRepository.class
