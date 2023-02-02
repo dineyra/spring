@@ -1,6 +1,7 @@
 package ru.project.service;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.project.model.User;
 import ru.project.repository.UserRepository;
 
@@ -20,6 +21,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.getAllUsers();
     }
 
+    @Transactional
     @Override
     public void createOrUpdateUser(User user) {
         if (0 == user.getId()) {
@@ -42,6 +44,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.readUser(id);
     }
 
+    @Transactional
     @Override
     public User deleteUser(long id) {
         User user = null;

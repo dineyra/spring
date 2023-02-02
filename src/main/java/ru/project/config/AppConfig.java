@@ -3,7 +3,6 @@ package ru.project.config;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.orm.jpa.JpaTransactionManager;
@@ -18,7 +17,6 @@ import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 
 @Configuration
-@EnableAspectJAutoProxy
 @EnableTransactionManagement
 @PropertySource("classpath:db.properties")
 public class AppConfig {
