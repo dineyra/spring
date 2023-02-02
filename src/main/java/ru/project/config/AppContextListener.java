@@ -1,5 +1,4 @@
 package ru.project.config;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import java.sql.Driver;

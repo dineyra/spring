@@ -1,5 +1,4 @@
 package ru.project.service;
-
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.project.model.User;

@@ -1,7 +1,6 @@
 package ru.project.repository;
 
 import ru.project.model.User;
-
 import java.util.List;
 
 public interface UserRepository {

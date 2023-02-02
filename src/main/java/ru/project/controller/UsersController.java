@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import ru.project.model.User;
 import ru.project.service.UserService;
-import ru.project.service.UserServiceImpl;
+
 
 import javax.validation.Valid;
 

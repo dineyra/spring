@@ -2,7 +2,6 @@ package ru.project.repository;
 
 import org.springframework.stereotype.Repository;
 import ru.project.model.User;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
